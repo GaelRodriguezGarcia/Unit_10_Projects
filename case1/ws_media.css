@@ -14,10 +14,23 @@
 */
 
 /* VideoPlayer Styles */
-
-
+video{
+    display: block;
+    width: 90%;
+    margin: 5px auto 5px auto;
+}
+@media only screen and (min-width:521px){
+    video{
+        width: 360px;
+        float: right;
+        margin: 10px;
+    }
+}
 
 
 /* Track Styles */
-
+caption{
+    text-size; 1.3em;
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
